@@ -1,4 +1,4 @@
-import { returnString } from "../../globalFunctions/returnString";
+import { returnString } from "../../globalFunctions/returnString.mjs";
 
 export default {
   async fetch(request, env, ctx) {
