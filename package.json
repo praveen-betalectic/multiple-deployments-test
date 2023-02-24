@@ -1,0 +1,16 @@
+{
+  "name": "workers-multi-deploy-test",
+  "version": "0.0.0",
+  "devDependencies": {
+    "wrangler": "2.8.1"
+  },
+  "private": true,
+  "scripts": {
+    "fastify-dev": "cd fastify && node server",
+    "workers-start": "cd workers && wrangler dev",
+    "workers-deploy": "cd workers && wrangler publish"
+  },
+  "dependencies": {
+    "fastify": "^4.13.0"
+  }
+}
